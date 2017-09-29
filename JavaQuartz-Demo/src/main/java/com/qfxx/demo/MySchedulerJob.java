@@ -40,7 +40,6 @@ public class MySchedulerJob implements Job{
 	// 自定义调度Job，实现实际业务处理
 	public void execute(JobExecutionContext context)
 			throws JobExecutionException {
-		
 		try {
 			System.out.println("[ scheduler name ："+context.getScheduler().getSchedulerName()+"]");
 			System.out.println("[ trigger info : "+context.getTrigger().toString()+"]" );
