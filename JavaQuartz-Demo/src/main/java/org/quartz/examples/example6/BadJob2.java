@@ -41,8 +41,7 @@ public class BadJob2 implements Job {
 
     // Logging
     private static Logger _log = LoggerFactory.getLogger(BadJob2.class);
-    @SuppressWarnings("unused")
-	private int calculation;
+    private int calculation;
 
     /**
      * Empty public constructor for job initialization
